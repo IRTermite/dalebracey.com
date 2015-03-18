@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">	
+	<title>DaleBracey.com</title>
+</head>
+
+<body background="black">
+Blah... blah
+
+	<canvas id="mySites" width="300" height="600" 
+		style="border:1px solid #000000; position: absolute; above: 30; left: 0; right: 0; margin-left: auto; margin-right: auto;">
+	
+		<script>
+		
+		// Draw squares
+		var canvas = document.getElementById("mySites");
+		var ctx = canvas.getContext("2d");
+		for (var i=0;i<3;i++){
+			ctx.fillStyle = "#ff6600";
+			ctx.fillRect(0, 100+i*105, 90, 90);
+			ctx.fillRect(105, 100+i*105, 90, 90);
+			ctx.fillRect(210, 100+i*105, 90, 90);
+			ctx.textAlign = "center";
+			ctx.font = "30px Comic Sans MS";
+			ctx.fillStyle = "ff6600";
+			ctx.fillText("DaleBracey.com", canvas.width/2, 70);
+		}
+		
+		</script>
+	
+	</canvas>
+
+</body>
+
+</html>
+
+
