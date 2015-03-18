@@ -14,7 +14,10 @@ Blah... blah
 		style="border:1px solid #000000; position: absolute; above: 30; left: 0; right: 0; margin-left: auto; margin-right: auto;">
 	
 		<script>
-		
+
+		var linkTextTermiteWerks="termitewerks.info";
+
+
 		// Draw squares
 		var canvas = document.getElementById("mySites");
 		var ctx = canvas.getContext("2d");
@@ -24,11 +27,24 @@ Blah... blah
 			ctx.fillRect(105, 100+i*105, 90, 90);
 			ctx.fillRect(210, 100+i*105, 90, 90);
 			ctx.textAlign = "center";
-			ctx.font = "30px Comic Sans MS";
+			ctx.font = "30px Verdana";
 			ctx.fillStyle = "ff6600";
 			ctx.fillText("DaleBracey.com", canvas.width/2, 70);
 		}
 		
+		// Words
+		var canvas = document.getElementById("mySites");
+		var ctx = canvas.getContext("2d");
+			ctx.font = "12px Verdana";
+			ctx.fillStyle = "black";
+			ctx.fillText(linkTextTermiteWerks, canvas.width/2-105, 180);
+		    linkWidth=ctx.measureText(linkText).width;
+
+
+		 //add mouse listeners
+    	canvas.addEventListener("mousemove", on_mousemove, false);
+    	canvas.addEventListener("click", on_click, false);
+
 		</script>
 	
 	</canvas>
