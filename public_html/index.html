@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">	
 	<title>DaleBracey.com</title>
 	<style>
-		body {color:white}
+		body {background-color:#4d4d4d; color:white; font-family:"Verdana"}
 		h1   {color:#ff6600}
 		p    {color:white}
 		link {color:white}
@@ -15,28 +15,78 @@
 		active {color:#ff6600}
 	</style>
 
-  </style>
+<!-- Playing with templates -->
+<!-- TEMPLATE - profileBlock -->
+<svg width="400px" height="100px" class="visually-hidden" display="none">
+  <rect id="profileBlock" width="400" height="100" 
+  style="fill:#ff6600;stroke-width:10;stroke:black" />
+</svg>
+  
+<!-- USE TEMPLATE SEVERAL TIMES Example -->
+<svg width="400px" height="100px" class="block block-1" display="none">
+  <use xlink:href="#profileBlock">
+</svg>
 
 </head>
 
 <body background="black">
 
 	<center>
-	<svg width="400" height="100">
-	<rect width="400" height="100" 
-	style="fill:#ff6600;stroke-width:10;stroke:black" />
+
+	Dale "Termite" Bracey
+	<br>
+	IRTermite - Because I are Termite
+	<br>
+	<br>
+
+	<svg width="400" height="100" xmlns:xlink="https://about.me/dbracey">
+	<a xlink:href="https://about.me/dbracey" target="_blank">
+	<rect width="400" height="100" style="fill:#ff6600;stroke-width:10;stroke:black"/>
+	<text text-anchor="middle" x="50%" y="60%" fill="black" font-size="32">
+    About.me
+    </text>
+	</a>
 	Sorry, your browser does not support inline SVG.
-	<text x="0" y="30" fill="black">Facebook</text>
 	</svg>
 	<br>
-	<svg width="400" height="100">
-	<rect width="400" height="100" 
-	style="fill:#ff6600;stroke-width:10;stroke:black" />
+
+	<svg width="400" height="100" xmlns:xlink="https://www.facebook.com/dale.bracey">
+	<a xlink:href="https://www.facebook.com/dale.bracey" target="_blank">
+	<rect width="400" height="100" style="fill:#ff6600;stroke-width:10;stroke:black"/>
+	<text text-anchor="middle" x="50%" y="60%" fill="black" font-size="32">
+    Facebook
+    </text>
+	</a>
 	Sorry, your browser does not support inline SVG.
 	</svg>
+	<br>
+
+	<svg width="400" height="100" xmlns:xlink="https://twitter.com/IRTermite">
+	<a xlink:href="https://twitter.com/IRTermite" target="_blank">
+	<rect width="400" height="100" style="fill:#ff6600;stroke-width:10;stroke:black"/>
+	<text text-anchor="middle" x="50%" y="60%" fill="black" font-size="32">
+    Twitter
+    </text>
+	</a>
+	Sorry, your browser does not support inline SVG.
+	</svg>
+	<br>	
+
+	<svg width="400" height="100" xmlns:xlink="https://www.linkedin.com/pub/dale-bracey/5/593/a17">
+	<a xlink:href="https://www.linkedin.com/pub/dale-bracey/5/593/a17" target="_blank">
+	<rect width="400" height="100" style="fill:#ff6600;stroke-width:10;stroke:black"/>
+	<text text-anchor="middle" x="50%" y="60%" fill="black" font-size="32">
+    LinkedIn
+    </text>
+	</a>
+	Sorry, your browser does not support inline SVG.
+	</svg>
+	<br>
 
 	</center>
 
+
+<!-- Test space ; Trash for now
 
 	<canvas id="mySites" width="300" height="600" 
 		style="border:1px solid #000000; position: absolute; above: 30; left: 0; right: 0; margin-left: auto; margin-right: auto;">
@@ -80,6 +130,7 @@
 
 <a style="text-align:center" href="http://termitewerks.info">TermiteWerks.info</a>
 <a style="text-align:center" href="https://disqus.com/by/dalebracey/">Discus Profile</a>
+ -->
 
 </body>
 
