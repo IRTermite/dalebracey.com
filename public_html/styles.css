@@ -1,7 +1,9 @@
 body {background-color:#4d4d4d; color:white; font-family:"Verdana"}
 h1   {color:#ff6600}
+h2   {color:white}
 p    {color:white}
 link {color:white}
+button {font-size="32"}
 visted {color:#ff6600}
 hover {color:#ff6600}
 active {color:#ff6600}
