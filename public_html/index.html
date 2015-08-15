@@ -118,6 +118,8 @@
 
 <!-- Test space ; Trash for now
 
+    // Old layout... did not like the small blocks. May come back to later.
+    
 	<canvas id="mySites" width="300" height="600" 
 		style="border:1px solid #000000; position: absolute; above: 30; left: 0; right: 0; margin-left: auto; margin-right: auto;">
 	
@@ -163,13 +165,15 @@
 
 <br>
 
+    // Trying to figure out how to put array loops inside svg
+
 	<svg width="400" height="100" xmlns:xlink="http://termitewerks.info/">
 	<a xlink:href="http://termitewerks.info/" target="_blank">
 	<rect width="400" height="100" style="fill:#ff6600;stroke-width:10;stroke:black"/>
 	<text text-anchor="middle" x="50%" y="60%" fill="black" font-size="32">
     Automotive & Tech Blog
     <script>
-	var myArray = ["one", "two", "three"];
+	var myArray = ["<br>one", "<br>two", "<br>three"];
 	for (var i = 0; i < myArray.length; i++) {
     document.writeln(myArray[i]);
 	}	
