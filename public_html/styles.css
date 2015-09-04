@@ -63,13 +63,13 @@ https://css-tricks.com/using-svg/
 }
 */
 .blocks-svg {
-    width: 300px;
+    width: 200px;
     height: 100px;
 }
 
 .blocks-rect {
     display: block;
-    width: 300px;
+    width: 200px;
     height: 100px;
     background-size: 250px 100px;
     fill: #ff6600;
