@@ -48,3 +48,51 @@ div#footer {
     text-align:center;
     padding:5px; 
 }
+
+/* SVG Blocks */
+
+/* SVG example
+https://css-tricks.com/using-svg/
+.blocks {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(kiwi.svg);
+  background-size: 250px 100px;
+}
+*/
+.blocks-svg {
+    width: 300px;
+    height: 100px;
+}
+
+.blocks-rect {
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-size: 250px 100px;
+    fill: #ff6600;
+    stroke-width: 10;
+    stroke: black;
+}
+
+.blocks-text {
+    text-anchor: middle;
+    x: 50%;
+    y: 60%;
+    text-color: black;
+    fill: black;
+    font-size: 22px;
+}
+
+/*    <svg width="400" height="100" xmlns:xlink="https://about.me/dbracey">
+    <a xlink:href="https://about.me/dbracey" target="_blank">
+    <rect style="fill:#ff6600;stroke-width:10;stroke:black" class="blocks"/>
+    <text text-anchor="middle" x="50%" y="60%" fill="black" font-size="32">
+    About.me
+    </text>
+    </a>
+    Sorry, your browser does not support inline SVG.
+    </svg>
+*/
